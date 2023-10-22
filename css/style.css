@@ -1,0 +1,176 @@
+
+h1{
+	font-size: larger;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 50px;
+	color: aliceblue;
+	
+}
+
+h2{
+	font-size: larger;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 35px;
+	color: aliceblue;
+	
+}
+h3{
+	font-size: larger;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+	color: aliceblue ;
+	
+}
+
+h4{
+	font-size: larger;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 150%;
+	margin: 75px;
+	max-width: 80%;
+	padding: auto;
+	color: rgb(255, 255, 255);
+	
+}
+
+
+body{
+	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	font-family: sans-serif;
+	background-color: #A8D0E6;
+	justify-content: center;
+	align-items: center;
+}
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	background-color: rgb(0, 0, 0);
+}
+
+/*nav a, nav h3{
+	float: left;
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+} */
+
+nav a:hover{
+	text-decoration: underline; /* Hover styles to let people know they can click it */
+}
+
+img{
+	
+	border-radius: 1px;
+} 
+main{
+	grid-area: main;
+	margin: 20px;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 10px;
+	display: grid;
+	
+	grid-template-columns: repeat(3, 30%);
+	grid-template-rows: auto;
+	grid-template-areas: 
+			"section1 section2 section3"
+			"section4 section5 section6"
+			"section7 section8 section9";
+}
+
+section:nth-of-type(1){
+	height: 100%;
+	border: 3px solid black;
+	border-radius: 5px;
+	grid-area: section1;
+	background-color: #24305E;
+}
+
+section:nth-of-type(2){
+	height: 100%;
+	border: 3px solid black;
+	border-radius: 5px;
+	grid-area: section2;
+	background-color: #24305E;;
+}
+
+section:nth-of-type(3){
+	height: 100%;
+	border: 3px solid black;
+	border-radius: 5px;
+	grid-area: section3;
+	background-color: #24305E;;
+}
+
+section:nth-of-type(4){
+	height: 100%;
+	border: 3px solid black;
+	border-radius: 5px;
+	grid-area: section4;
+	background-color: #24305E;;
+}
+
+section:nth-of-type(5){
+	height: 100%;
+	border: 3px solid black;
+	border-radius: 5px;
+	grid-area: section5;
+	background-color: #24305E;;
+}
+
+section:nth-of-type(6){
+	height: 100%;
+	border: 3px solid black;
+	border-radius: 5px;
+	grid-area: section6;
+	background-color: #24305E;;
+}
+
+section:nth-of-type(7){
+	height: 100%;
+	border: 3px solid black;
+	border-radius: 5px;
+	grid-area: section7;
+	background-color: #24305E;;
+}
+
+section:nth-of-type(8){
+	height: 100%;
+	border: 3px solid black;
+	border-radius: 5px;
+	grid-area: section8;
+	background-color: #24305E;;
+}
+
+section:nth-of-type(9){
+	height: 100%;
+	border: 3px solid black;
+	border-radius: 5px;
+	grid-area: section9;
+	background-color:#24305E;;
+}
+
+header{
+	
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 75px;
+	padding-right: 75px;
+	grid-template-areas: 
+			"div1'";
+}
+
+
+div:nth-of-type(1){
+	height: 100%;
+	border: 3px solid black;
+	border-radius: 5px;
+	grid-area: div1;
+	background-color: background-color: #24305E;
+}
+	
+
